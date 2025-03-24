@@ -2,7 +2,7 @@ replicaCount: 1
 
 image:
   repository: nginx       # Same image as default, but can be customized.
-  tag: "dev"
+  tag: "latest"
 
 service:
   type: ClusterIP
