@@ -1,0 +1,8 @@
+replicaCount: 2
+
+image:
+  repository: nginx       # Same image as default, but can be customized.
+  tag: "qa"
+
+service:
+  type: ClusterIP

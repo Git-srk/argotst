@@ -1,0 +1,8 @@
+replicaCount: 3
+
+image:
+  repository: nginx       # Same image as default, but can be customized.
+  tag: "stage"
+
+service:
+  type: LoadBalancer       # Use LoadBalancer for staging.

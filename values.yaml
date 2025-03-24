@@ -1,0 +1,8 @@
+replicaCount: 1
+
+image:
+  repository: nginx       # Open-source image (e.g., Nginx)
+  tag: "latest"
+
+service:
+  type: ClusterIP
